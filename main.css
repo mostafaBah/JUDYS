@@ -1,6 +1,8 @@
 body{
   background-color: black;
   font-family: Arial;
+  overflow: auto;
+  overflow-x: hidden;
 }
 .startBtn{
   background-color: rgb(213, 0, 213);
@@ -12,6 +14,9 @@ body{
   left: 10%;
   height: 20%;
   width: 80%;
+  color: white;
+  display: block;
+  cursor: pointer;
 }
 .startBtn:active{
   transition: 0.1s;
@@ -35,8 +40,16 @@ body{
   font-size: xx-large;
   text-shadow: 2px 2px black;
 }
-.show{
-  display: block;
+.codeInput{
+  width: 80%;
+  height: 20%;
+  font-size: x-large;
+}
+.submitBtn{
+  background-color: green;
+  border: none;
+  height: 10%;
+  color: white;
 }
 .hide{
   display: none;
