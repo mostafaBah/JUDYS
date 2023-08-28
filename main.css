@@ -4,6 +4,7 @@ body{
   overflow: auto;
   overflow-x: hidden;
 }
+
 .startBtn{
   background-color: rgb(213, 0, 213);
   border: none;
@@ -50,6 +51,141 @@ body{
   border: none;
   height: 10%;
   color: white;
+}
+.paragraph{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-size: large;
+}
+.ilyBtn{
+  background-color: rgb(4, 96, 255);
+  color: white;
+  border: 2px solid black;
+  width: 40%;
+  height: 60px;
+  font-size: x-large;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 2%;
+}
+.ilyDiv{
+  position: absolute;
+  top: 10%;
+  background-color: pink;
+  color: white;
+  border: 2px solid black;
+  font-size: x-large;
+  text-shadow: 2px 2px black;
+}
+.exitBtn{
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  font-size: large;
+  padding: 10px;
+  margin-top: 10px;
+}
+.hrt{
+  position: absolute;
+  height: 25%;
+  z-index: -1;
+}
+.heart1{
+  top: 30%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart2{
+  top: 45%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart3{
+  top: 60%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart4{
+  top: 75%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart5{
+  top: 90%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart6{
+  top: 105%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart7{
+  top: 15%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart8{
+  top: 0;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart9{
+  top: -15%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart10{
+  top: 120%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart11{
+  top: 135%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart12{
+  top: 150%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart13{
+  top: 165%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart14{
+  top: 180%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart15{
+  top: 195%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart16{
+  top: 210%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart17{
+  top: 225%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+
+.sBtn{
+  background-color: red;
+  color:white;
+  padding: 10px;
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  font-size: large;
+  border: 2px solid black;
 }
 .hide{
   display: none;
