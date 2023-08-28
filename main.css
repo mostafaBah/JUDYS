@@ -1,33 +1,192 @@
-let startBtn = document.querySelector(".startBtn");
-let codeDiv = document.querySelector(".passDiv");
-let codeInput = document.querySelector(".codeInput");
-let submitBtn = document.querySelector(".submitBtn");
-let paragraph = document.querySelector(".paragraph");
-let ilyBtn = document.querySelector(".ilyBtn");
-let ilyDiv = document.querySelector(".ilyDiv");
-let exit = document.querySelector(".exitBtn");
-let sBtn = document.querySelector(".sBtn");
+body{
+  background-color: black;
+  font-family: Arial;
+  overflow: auto;
+  overflow-x: hidden;
+}
 
-startBtn.addEventListener("click", ()=>{
-  startBtn.classList.add("hide");
-  setTimeout(() => {
-    codeDiv.classList.remove("hide");
-  }, 200);
-})
-submitBtn.addEventListener("click", ()=>{
-  let code = codeInput.value
-  if(code === "0206"){
-    document.body.style.backgroundColor = "purple"
-    codeDiv.classList.add("hide")
-    paragraph.classList.remove("hide")
-  }
-})
-ilyBtn.addEventListener("click", ()=>{
-  ilyDiv.classList.remove("hide")
-})
-exit.addEventListener("click", ()=>{
-  ilyDiv.classList.add("hide")
-})
-sBtn.addEventListener("click", ()=>{
-  sBtn.innerHTML = "I LOVE YOU JUDY KTIIIIIR. eemeleyon 75 aw 80 pleeeeeaaaaaassssseeeeeeee"
-})
+.startBtn{
+  background-color: rgb(213, 0, 213);
+  border: none;
+  padding: 15px;
+  font-size: large;
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  height: 20%;
+  width: 80%;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+.startBtn:active{
+  transition: 0.1s;
+  background-color: rgb(147, 1, 147);
+  height: 18%;
+  width: 70%;
+  top: 41%;
+  left: 15%;
+}
+.passDiv{
+  background-color: rgb(213, 0, 213);
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 60%;
+  border-top: 5px solid rgb(147, 1, 147);
+  border-bottom: 5px solid rgb(147, 1, 147);
+}
+.codeAsker{
+  color: white;
+  font-size: xx-large;
+  text-shadow: 2px 2px black;
+}
+.codeInput{
+  width: 80%;
+  height: 20%;
+  font-size: x-large;
+}
+.submitBtn{
+  background-color: green;
+  border: none;
+  height: 10%;
+  color: white;
+}
+.paragraph{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-size: large;
+}
+.ilyBtn{
+  background-color: rgb(4, 96, 255);
+  color: white;
+  border: 2px solid black;
+  width: 40%;
+  height: 60px;
+  font-size: x-large;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 2%;
+}
+.ilyDiv{
+  position: absolute;
+  top: 10%;
+  background-color: pink;
+  color: white;
+  border: 2px solid black;
+  font-size: x-large;
+  text-shadow: 2px 2px black;
+}
+.exitBtn{
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  font-size: large;
+  padding: 10px;
+  margin-top: 10px;
+}
+.hrt{
+  position: absolute;
+  height: 25%;
+  z-index: -1;
+}
+.heart1{
+  top: 30%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart2{
+  top: 45%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart3{
+  top: 60%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart4{
+  top: 75%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart5{
+  top: 90%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart6{
+  top: 105%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart7{
+  top: 15%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart8{
+  top: 0;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart9{
+  top: -15%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart10{
+  top: 120%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart11{
+  top: 135%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart12{
+  top: 150%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart13{
+  top: 165%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart14{
+  top: 180%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart15{
+  top: 195%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+.heart16{
+  top: 210%;
+  left: -4%;
+  transform: rotate(20deg);
+}
+.heart17{
+  top: 225%;
+  right: -4%;
+  transform: rotate(-20deg);
+}
+
+.sBtn{
+  background-color: red;
+  color:white;
+  padding: 10px;
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  font-size: large;
+  border: 2px solid black;
+}
+.hide{
+  display: none;
+}
